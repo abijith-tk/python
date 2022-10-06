@@ -1,3 +1,5 @@
+# Find the maximum value of a matrix
+
 import numpy as np
 
 # max : returns highest value in the given array/matrix

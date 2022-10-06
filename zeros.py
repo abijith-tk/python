@@ -1,3 +1,5 @@
+# Create an array filled with Zero
+
 import numpy as np
 
 # zeros : create an array of zeroes in specified shape

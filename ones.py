@@ -1,3 +1,5 @@
+# Create an array filled with 1
+
 import numpy as np
 
 # ones : create an array of specified shape filled by 1

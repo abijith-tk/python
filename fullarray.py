@@ -1,3 +1,5 @@
+# Crate a full array
+
 import numpy as np
 
 # full array : return a new array in specified size filled with fill_value
