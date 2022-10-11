@@ -44,3 +44,8 @@ print(c)
 print(d)
 print(e)
 
+# linspace() similiar to arange(), floating point values
+# syntax, linspace(start,stop,number of elements
+f=np.linspace(1,5,20)
+print(f)
+
