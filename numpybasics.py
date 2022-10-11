@@ -30,7 +30,7 @@ print(b)
 
 # creating multi-dimensional arrays using array()
 
-c=np.array([[1,2],[2,3]])
+c=np.array([[1,2],[2,3]],dtype=float)
 print(c)
 
 # zeros() is used to create an array of zeroes
@@ -45,7 +45,8 @@ print(d)
 print(e)
 
 # linspace() similiar to arange(), floating point values
-# syntax, linspace(start,stop,number of elements
-f=np.linspace(1,5,20)
+# syntax, linspace(start,stop,number of elements,dtype=  )
+f=np.linspace(1,5,20,dtype=np.half)  # np.half : built-in method change precision
 print(f)
-
+g=np.array([1,2],dtype='U')    # U : unicode string , S : byte string
+print(g)
