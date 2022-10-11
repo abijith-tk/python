@@ -5,6 +5,8 @@ import numpy as np
 # syntax, arange(start,stop,step)   * start,update are optional arguments
 # reshape() is used to specify the shape of the matrix
 a=np.arange(10).reshape(5,2)
+# reshape(-1)  : to change the array into a single dimensional array
+print(a.reshape(-1))
 
 # ndim is used to find array dimension
 print(a.ndim)
@@ -50,3 +52,10 @@ f=np.linspace(1,5,20,dtype=np.half)  # np.half : built-in method change precisio
 print(f)
 g=np.array([1,2],dtype='U')    # U : unicode string , S : byte string
 print(g)
+
+# astype() : creates a copy of an array and convert the data type of the copy
+h=c.astype('i')
+print(h)
+
+
+
