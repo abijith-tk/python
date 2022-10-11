@@ -35,6 +35,10 @@ print(b)
 c=np.array([[1,2],[2,3]],dtype=float)
 print(c)
 
+# we can access the array elements by specifying their indexes9
+print(c[0,1])
+print(c[1][0])
+
 # zeros() is used to create an array of zeroes
 # ones() is used to create an array of ones
 # empty() is used to create an empty array array whose initial content is random and depends on the state of the memory.
@@ -45,6 +49,11 @@ e=np.empty((2,2))
 print(c)
 print(d)
 print(e)
+
+# eye(),identity() is used to create an identity matrix
+identity_matrix=np.eye(4)
+print(identity_matrix)
+print(np.identity(5))
 
 # linspace() similiar to arange(), floating point values
 # syntax, linspace(start,stop,number of elements,dtype=  )
